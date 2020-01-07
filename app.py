@@ -56,9 +56,9 @@ class myHandler(BaseHTTPRequestHandler):
 				self.end_headers()
 				
 				try:
-					self.wfile.write('hellooo motherfucker')
+					self.wfile.write('hello')
 				except:
-					self.wfile.write(bytes('hola mundo', 'UTF-8'))
+					self.wfile.write(bytes('hola crack, mastodonte, titan eres un puto amo ', 'UTF-8'))
 				
 			return
 
